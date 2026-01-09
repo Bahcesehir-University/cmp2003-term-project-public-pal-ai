@@ -45,3 +45,4 @@ private:
     // we choose this structure to ensures only valid hours extracted from the CSV are stored
     std::unordered_map<std::string, std::unordered_map<int, long long>> m_hourlyCounts;
 };
+
